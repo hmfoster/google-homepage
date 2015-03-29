@@ -4,37 +4,38 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<nav class="header">
-		<ul>
-			<li>Apps</li>
-			<li>Images</li>
-			<li>Gmail</li>
-			<li>+Hailey</li>
-		</ul>
+	<nav id="header">
+		<a href="#">+Hailey</a>
+		<a href="#">Gmail</a>
+		<a href="#">Images</a>
+		<a href="#"><img src="images/apps.png"></a>
+		<a href="#"><img src="images/notification.png"></a>
+		<a href="#"><img src="images/share_symbol.png"></a>
+		<a href="#"><img src="images/profile.jpg" id="profile"></a>
 	</nav>
-	<div id="search">
-		<img src="https://www.google.com/images/srpr/logo11w.png" width="265">
-		<form>
-			<input size="100" line-height="20px"/>
+	<div class="content">	
+		<img src="images/googlelogo.png" width="270">
+		<form action="#">
+			<div id="search term">
+				<input id="enter"/>
+			</div>	
+			<div id="submit">
+				<input type="submit" value="Google Search" id="search"/>
+				<input type="submit" value="I'm Feeling Lucky" id="lucky"/>
+			</div>
 		</form>
-		<div>
-			<input value="Google Search" type="button" class="submit"/>
-			<input value="I'm Feeling Lucky" type="button" class="submit"/>
+	</div>
+	<nav id="footer">
+		<div id="left">
+			<a href="#">Advertising</a>
+			<a href="#">Business</a>
+			<a href="#">About</a>
 		</div>
-	</div>
-	<div class="footer" id="left">
-		<ul>
-			<li>Advertising</li>
-			<li>Business</li>
-			<li>About</li>
-		</ul>
-	</div>
-	<div class="footer" id="right">
-		<ul>
-			<li>Privacy</li>
-			<li>Terms</li>
-			<li>Settings</li>
-		</ul>
-	</div>
+		<div id="right">
+			<a href="#">Privacy</a>
+			<a href="#">Terms</a>
+			<a href="#">Settings</a>
+		</div>
+	</nav>
 </body>
 </html>
