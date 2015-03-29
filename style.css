@@ -82,3 +82,6 @@ a #profile{
 	float: right;
 }
 
+a:hover{
+	text-decoration: underline;
+}
