@@ -1,41 +1,42 @@
 <html>
 <head>
 	<title>Google</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<nav id="header">
-		<a href="../google-results/index.html">+Hailey</a>
-		<a href="#">Gmail</a>
-		<a href="#">Images</a>
-		<a href="#"><img src="images/apps.png"></a>
-		<a href="#"><img src="images/notification.png"></a>
-		<a href="#"><img src="images/share_symbol.png"></a>
-		<a href="#"><img src="images/profile.jpg" id="profile"></a>
-	</nav>
-	<div class="content">	
-		<img src="images/googlelogo.png" width="270">
+	<header class="group">
+		<ul>
+			<li><a href="../google-results/index.html">+Hailey</a></li>
+			<li><a href="#">Gmail</a></li>
+			<li><a href="#">Images</a></li>
+			<li><a href="#"><img src="images/apps.png"></a></li>
+			<li><a href="#"><img src="images/notification.png"></a></li>
+			<li><a href="#"><img src="images/share_symbol.png"></a></li>
+			<li><a href="#"><img src="images/profile.jpg"></a></li>
+		</ul>
+	</header>
+	<main>	
+		<img src="images/googlelogo.png">
 		<form action="#">
-			<div id="search term">
-				<input id="enter"/>
-			</div>	
-			<div id="submit">
-				<input type="submit" value="Google Search" id="search"/>
-				<input type="submit" value="I'm Feeling Lucky" id="lucky"/>
+			<input type="text" placeholder='Say "Ok Google"    '/>
+			<div class="submit">
+				<button>Google Search</button>
+				<button>I'm Feeling Lucky</button>
 			</div>
 		</form>
-	</div>
-	<nav id="footer">
-		<div id="left">
+	</main>
+	<footer>
+		<nav class="left">
 			<a href="#">Advertising</a>
 			<a href="#">Business</a>
 			<a href="#">About</a>
-		</div>
-		<div id="right">
+		</nav>
+		<nav class="right">
 			<a href="#">Privacy</a>
 			<a href="#">Terms</a>
 			<a href="#">Settings</a>
-		</div>
+		</nav>
 	</nav>
 </body>
 </html>
